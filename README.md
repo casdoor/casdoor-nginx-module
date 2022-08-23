@@ -88,11 +88,11 @@ Start the front end and back end of Casdoor.
 
 Open your favorite browser and visit **[http://localhost:8000](http://localhost:8=8000/)** and login with the default user name(admin) and password(123), you will see the following:
 
-![image-20220823115739075](img\image-1.png)
+![image-20220823115739075](img/image-1.png)
 
 click the Edit button, input your Redirect URLs. After authorization, you will redirect to this URL.
 
-![image-20220823120904335](img\image-2.png)
+![image-20220823120904335](img/image-2.png)
 
 
 
