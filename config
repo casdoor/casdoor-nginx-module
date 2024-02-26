@@ -1,3 +1,7 @@
 ngx_addon_name="nginx-http-casdoor-module"
 HTTP_MODULES="$HTTP_MODULES ngx_http_casdoor_module"
 NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_casdoor_module.c"
+
+CORE_INCS="$CORE_INCS $ngx_addon_dir/Users/caofengyi/code/casbin/nginx-1.24.0"
+
+CFLAGS="$CFLAGS -I$ngx_addon_dir/src"
